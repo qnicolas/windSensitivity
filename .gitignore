@@ -1,3 +1,5 @@
 .ipynb_checkpoints/
 dask-worker-space/
 *.nc
+*.tsv
+*.json
