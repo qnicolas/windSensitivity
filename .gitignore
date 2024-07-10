@@ -3,3 +3,6 @@ dask-worker-space/
 *.nc
 *.tsv
 *.json
+figs/
+old/
+data/
