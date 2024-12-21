@@ -136,7 +136,7 @@ def linear_precip_theory_damped(x,h,N,U,xi=1./86400.,tauT=7.5 * 3600,tauq=27.5 *
     
     # DSE and moisture lapse rates
     ds0dz = 300./g * N**2 * cp
-    dq0dz = Lv * np.gradient(0.015 * np.exp(-z/2500),z)#.mean()
+    dq0dz = Lv * np.gradient(0.016 * np.exp(-z/2500),z)#.mean()
     
     chi = pT_ov_g * (ds0dz/tauT - dq0dz/tauq)/ Lv * 86400
     
