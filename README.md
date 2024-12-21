@@ -1,5 +1,5 @@
 # Description
-This folder contains data and code to reproduce figures appearing in Nicolas & Boos (2024, submitted) - *Sensitivity of tropical orographic precipitation to wind speed with implications for future projections*. 
+This folder contains data and code to reproduce figures appearing in Nicolas & Boos (accepted, Weather and Climate Dynamics) - *Sensitivity of tropical orographic precipitation to wind speed with implications for future projections*. 
 
 tools.py contains utilities for averaging, linear regressions, statistics, etc.
 wave_precip_models.py contains linear mountain wave and orographic precipitation models (and one nonlinear model).
